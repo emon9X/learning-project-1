@@ -8,3 +8,4 @@ Process
 3. Download the asset
 4. Start coding with commenting
 5. Deploy the page: settings-->pages-->branch-->main
+    Note: the html file must be named noting but index.html
