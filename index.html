@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project 1</title>
 </head>
+
 <body>
     <!-- how to change html element -->
     <h1>How to change html element</h1>
     <h3>The below font will be changed on click</h3>
     <p id="change">Hello I'm going to change on click</p>
-    <button type="button" onclick="document.getElementById('change').innerHTML='I have changed on Click'">Click here</button>
+    <button type="button" onclick="document.getElementById('change').innerHTML='I have changed on Click'">Click
+        here</button>
 
     <hr>
 
     <!-- how to change html element attribute value  -->
     <h1>How to change html element attribute values</h1>
     <h3>The bulb will be turned on or off on clicking on the respective buttons</h3>
-    <button type="button" onclick="document.getElementById('bulb').src='./asset/pic_bulbon.gif'">Turn the bulb on</button>
+    <button type="button" onclick="document.getElementById('bulb').src='./asset/pic_bulbon.gif'">Turn the bulb
+        on</button>
     <img id="bulb" src="./asset/pic_bulboff.gif" alt="">
-    <button type="button" onclick="document.getElementById('bulb').src='./asset/pic_bulboff.gif'">Turn the bulb off</button>
+    <button type="button" onclick="document.getElementById('bulb').src='./asset/pic_bulboff.gif'">Turn the bulb
+        off</button>
 
     <hr>
 
@@ -37,5 +42,12 @@
     <button type="button" onclick="document.getElementById('target').style.display='none'">Hide</button>
     <button type="button" onclick="document.getElementById('target').style.display='block'">Show</button>
 
+    <!-- 
+    document is an object
+    getElementById is a method or function which takes argument
+    document.getElementById gives another object, on which another method is applied to get desired result 
+-->
+
 </body>
+
 </html>
