@@ -12,8 +12,10 @@
     <h1>How to change html element</h1>
     <h3>The below font will be changed on click</h3>
     <p id="change">Hello I'm going to change on click</p>
-    <button type="button" onclick="document.getElementById('change').innerHTML='I have changed on Click'">Click
-        here</button>
+    <!-- onclick event by external javascript  -->
+    <button type="button" onclick=changeHTML()>Click here</button>
+    <!-- event function can be called with or without quotes  -->
+    <button type="button" onclick="changeHTML()">Click here</button>
 
     <hr>
 
@@ -42,6 +44,8 @@
     <button type="button" onclick="document.getElementById('target').style.display='none'">Hide</button>
     <button type="button" onclick="document.getElementById('target').style.display='block'">Show</button>
 
+
+    <script src="changeHTML.js"></script>
     <!-- 
     document is an object
     getElementById is a method or function which takes argument
